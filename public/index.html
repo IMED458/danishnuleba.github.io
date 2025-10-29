@@ -2,9 +2,30 @@
 <html lang="ka">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="description" content="Zweck — დანიშვნები: Easily manage your appointments and schedules." />
+    <meta name="keywords" content="Zweck, დანიშვნები, appointments, scheduling, Georgian" />
+    <meta name="theme-color" content="#ffffff" />
+    <meta property="og:title" content="Zweck — დანიშვნები" />
+    <meta property="og:description" content="Manage your appointments and schedules efficiently." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="/icons/og-image.png" />
     <title>Zweck — დანიშვნები</title>
+    <link rel="icon" href="/favicon.ico" />
+    <link rel="manifest" href="/manifest.json" />
+    <!-- PWA Apple support -->
+    <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png" />
+    <!-- Main CSS (optional, if you have one) -->
+    <link rel="stylesheet" href="/main.css" />
+    <!-- Content Security Policy for added security -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:;" />
     <script type="module" src="/src/main.jsx"></script>
+    <!-- Fallback for old browsers (optional) -->
+    <noscript>
+      <div style="color: red; text-align: center;">
+        ამ ვებგვერდის გამოყენებისთვის საჭიროა JavaScript-ის ჩართვა.
+      </div>
+    </noscript>
   </head>
   <body>
     <div id="root"></div>
